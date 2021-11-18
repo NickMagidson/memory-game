@@ -34,10 +34,11 @@ button {
   cursor: pointer;
   font-size: 1em;
   font-family: 'Alice in Wonderland';
+  letter-spacing: 1px;
   width: 150px;
 }
 button:hover {
-  background: #852a97;
+  background: #03587d83;
   color: #fff;
 }
 
