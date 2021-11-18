@@ -11,7 +11,7 @@
 
 /* Front */
 .card .front {
-    transform:rotateY(90deg);
+    transform: rotateY(90deg);
     transition: all ease-in 0.2s;
     position: absolute;
 }
