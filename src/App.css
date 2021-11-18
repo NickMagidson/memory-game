@@ -1,15 +1,23 @@
 @font-face {
   font-family: Alice in Wonderland;
-  src: url('./font/Alice_in_Wonderland_3.ttf');
+  src: url('./assets/Alice_in_Wonderland_3.ttf');
 }
 
 body {
   font-family: 'Alice in Wonderland';
   letter-spacing: 3px;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('./assets/bg-2.jpg');
+  background-size: cover;
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 3.4rem;
+  color: black;
+  text-shadow: 2px 2px #cfc8c8;
+}
+
+p {
+  font-size: 30px;
 }
 
 .App {
@@ -18,10 +26,10 @@ h1 {
 }
 button {
   background: none;
-  border: 2px solid #fff;
+  border: 2px solid rgb(0, 0, 0);
   padding: 6px 12px;
   border-radius: 4px;
-  color: #fff;
+  color: black;
   font-weight: bold;
   cursor: pointer;
   font-size: 1em;
@@ -29,8 +37,13 @@ button {
   width: 150px;
 }
 button:hover {
-  background: #c23866;
+  background: #852a97;
   color: #fff;
+}
+
+button:active {
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
 }
 
 .card-grid {
