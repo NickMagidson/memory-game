@@ -6,8 +6,11 @@
 body {
   font-family: 'Alice in Wonderland';
   letter-spacing: 3px;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('./assets/bg-2.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url('./assets/bg-2.jpg');
   background-size: cover;
+  margin: 0; 
+  height: 100%;
+  overflow: hidden
 }
 
 h1 {
@@ -48,7 +51,7 @@ button:active {
 }
 
 .card-grid {
-  margin-top: 40px;
+  margin-top: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
