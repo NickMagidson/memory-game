@@ -29,6 +29,8 @@ function App() {
       .sort(() => Math.random() - 0.5)
       .map(card => ({ ...card, id: Math.random() }))
 
+    setChoiceOne(null);
+    setChoiceTwo(null);
     setCards(shuffledCards);
     SetTurns(0);
   };
@@ -44,7 +46,7 @@ function App() {
   useEffect(() => {
     if (choiceOne && choiceTwo) {
       setDisabled(true);
-      
+
       if (choiceOne.src === choiceTwo.src) {
         setCards(prevCards => {
           return prevCards.map(card => {
@@ -74,6 +76,13 @@ function App() {
     setDisabled(false);
   }
 
+
+  // Start new game automatically
+  useEffect(() => {
+    shuffleCards()
+  }, [])
+
+
   return (
     <div className="App">
       <h1>Memory Game</h1>
@@ -90,6 +99,7 @@ function App() {
           />
         ))}
       </div>
+      <p>Turns: {turns}</p>
     </div>
   );
 }
