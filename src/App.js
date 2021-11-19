@@ -3,13 +3,14 @@ import './App.css'
 import Card from './components/Card';
 
 
+
 const cardImages = [
-  { "src": "/img/alice.jpg", matched: false },
-  { "src": "/img/cheshire-2.jpg", matched: false },
-  { "src": "/img/hare.jpg", matched: false },
-  { "src": "/img/hatter.jpg", matched: false },
-  { "src": "/img/piller.jpg", matched: false },
-  { "src": "/img/queen.jpg", matched: false }
+  { "src": "./imgs/alice.jpg", matched: false },
+  { "src": "./imgs/cheshire-2.jpg", matched: false },
+  { "src": "./imgs/hare.jpg", matched: false },
+  { "src": "./imgs/hatter.jpg", matched: false },
+  { "src": "./imgs/piller.jpg", matched: false },
+  { "src": "./imgs/queen.jpg", matched: false }
 ]
 
 
@@ -74,13 +75,13 @@ function App() {
     setChoiceTwo(null);
     SetTurns(prevturns => prevturns + 1);
     setDisabled(false);
-  }
+  };
 
 
   // Start new game automatically
   useEffect(() => {
-    shuffleCards()
-  }, [])
+    shuffleCards();
+  }, []);
 
 
   return (
