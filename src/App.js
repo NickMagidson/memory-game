@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css'
 import Card from './components/Card';
 
-// Image imports for fix
+// Imports for broken image fix
 import alice from './assets/imgs/alice.jpg';
 import cheshire from './assets/imgs/cheshire-2.jpg';
 import hare from './assets/imgs/hare.jpg';
