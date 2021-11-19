@@ -2,15 +2,22 @@ import React, { useState, useEffect } from 'react';
 import './App.css'
 import Card from './components/Card';
 
+// Image imports for fix
+import alice from './assets/imgs/alice.jpg';
+import cheshire from './assets/imgs/cheshire-2.jpg';
+import hare from './assets/imgs/hare.jpg';
+import hatter from './assets/imgs/hatter.jpg';
+import piller from './assets/imgs/piller.jpg';
+import queen from './assets/imgs/queen.jpg';
 
 
 const cardImages = [
-  { "src": "./imgs/alice.jpg", matched: false },
-  { "src": "./imgs/cheshire-2.jpg", matched: false },
-  { "src": "./imgs/hare.jpg", matched: false },
-  { "src": "./imgs/hatter.jpg", matched: false },
-  { "src": "./imgs/piller.jpg", matched: false },
-  { "src": "./imgs/queen.jpg", matched: false }
+  { "src": alice, matched: false },
+  { "src": cheshire, matched: false },
+  { "src": hare, matched: false },
+  { "src": hatter, matched: false },
+  { "src": piller, matched: false },
+  { "src": queen, matched: false }
 ]
 
 
