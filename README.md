@@ -1,13 +1,25 @@
-<h1>Memory Card Game</h1>
+# Wonderland Memory Game
 
-<h3>Summary:</h3>
+An Alice in Wonderland themed memory card game.
+[Live Preview](https://nickmagidson.github.io/memory-game/)
 
-Alice in Wonderland themed memory card game built in React.js using hooks.
+## Description
 
+This project is a basic memory card game built with React. The goal with this app was to build it useing hooks and learn conditional rendering.
 
-<a href="https://nickmagidson.github.io/memory-game/"><h4>Live Preview</h4></a>
+## Getting Started
 
-### `cd memory-game`
+### Dependencies
 
-### `npm start`
+* react / react-dom
+* gh-pages
 
+### Executing program
+```
+cd memory-game
+npm install
+```
+
+```
+npm start
+```
