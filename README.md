@@ -1,11 +1,12 @@
 # Wonderland Memory Game
 
 An Alice in Wonderland themed memory card game.
+<br />
 [Live Preview](https://nickmagidson.github.io/memory-game/)
 
 ## Description
 
-This project is a basic memory card game built with React. The goal with this app was to build it useing hooks and learn conditional rendering.
+This project is a basic memory card game built with React. The goal was to build it using hooks and learn conditional rendering along the way.
 
 ## Getting Started
 
